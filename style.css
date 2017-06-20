@@ -27,13 +27,9 @@
  
  a {
      text-decoration: none;
-     color: black;
+     
  }
- 
- a:hover {
-     color: white;
- }
- 
+
  #name_box {
      display: flex;
      align-items: center;
@@ -150,13 +146,13 @@
      display: flex;
      align-items: center;
      justify-content: center;
- }
- 
- #Social:hover {
      background-color: black;
-     color: white !important;
+
  }
- 
+
+ a{
+     color:white;
+ }
  #Boom {
      align-items: center;
  }
