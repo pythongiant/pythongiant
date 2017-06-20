@@ -1,0 +1,167 @@
+ @import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+ @-ms-viewport {
+     width: device-width;
+ }
+ 
+ html,
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: open sans;
+     width: 100%;
+     height: 100%;
+     position: relative;
+ }
+ 
+ #start {
+     background-image: url(Castle.jpg);
+     width: 100%;
+     height: 100%;
+     background-attachment: fixed;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: black;
+ }
+ 
+ a:hover {
+     color: white;
+ }
+ 
+ #name_box {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-style: solid;
+     border-color: white;
+     width: 150px;
+     height: 150px;
+ }
+ 
+ #name_box {
+     transition: all .2s ease-in-out;
+ }
+ 
+ #name_box:hover {
+     transform: scale(1.1);
+ }
+ 
+ span {
+     font-family: 'Lobster Two';
+ }
+ 
+ #Web {
+     height: 50px;
+     width: 550px;
+ }
+ 
+ #Stats {
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+ }
+ 
+ #WebD {
+     background-color: black;
+ }
+ 
+ .wrapper {
+     width: 500px;
+ }
+ 
+ .progress-bar {
+     width: 100% auto;
+     background-color: black;
+ }
+ 
+ .fill {
+     height: 22px;
+     background-color: palegoldenrod;
+     display: block;
+ }
+ 
+ #portfolio-bg {
+     height: 500px;
+     background-image: url(Hills.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ #Portfolio {
+     padding-top: 5px;
+ }
+ 
+ #pix {
+     width: 300px;
+     height: 300px;
+     margin-left: 5px;
+     transition: all .2s ease-in-out;
+ }
+ 
+ #pix:hover {
+     transform: scale(1.3);
+ }
+ 
+ #pix:active {
+     transform: scale(3);
+ }
+ 
+ #pix {
+     text-align: right;
+ }
+ 
+ h2 {
+     font-family: 'Lobster Two';
+ }
+ 
+ #pix {
+     height: 3cm;
+     width: 5cm;
+     margin-top: 50px;
+     padding: 0;
+ }
+ 
+ td {
+     padding-left: 200px;
+ }
+ 
+ #Contacts {
+     height: 500px;
+     background-image: url(Arduino.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ #Social {
+     transition: all .2s ease-in-out;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ #Social:hover {
+     background-color: black;
+     color: white !important;
+ }
+ 
+ #Boom {
+     align-items: center;
+ }
+table {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
