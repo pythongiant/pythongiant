@@ -2,7 +2,29 @@
  @-ms-viewport {
      width: device-width;
  }
- 
+ @media screen and (max-width: 699px) {
+    iframe {
+     width:300px;
+     height:200px;
+        }
+}
+ #about_me{
+     padding:50px;
+ }
+ #languages{
+     list-style-type: none;
+
+ }
+ #languages li{
+     display: inline;
+     padding:20px;
+ }
+ #languages img{
+     height:200px;
+ }
+ li{
+     list-style-type: none;
+ }
  html,
  body {
      margin: 0;
