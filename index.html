@@ -1,47 +1,83 @@
-<!doctype html>
 <html>
+    <head>
+        <title>Srihari Unnikrishnan</title>
+      <link rel="icon" href="i am me..png"
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+        <style>
+                body,html{
+                    background-color: #FF0031;
+                    margin:0;
+                    color:white;
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-    <link rel="stylesheet" href="style.css">
-    <title>Srihari Unnikrishnan</title>
-
-
-</head>
-
-<body>
-    <div id="start">
-        <center>
-            <div id="name_box">
-
-                <center>
-                    <span><h3 id="Name">Srihari <br/>Unnikrishnan</h3></span>
-                </center>
-            </div>
-        </center>
-    </div>
-    <div id="about_me">
-        <center>
-            <h2>About me</h2>
-        </center>
-        <p style="margin-left:5px;">
-            <center>Hi,I am <span>Srihari Unnikrishnan</span>, a passionate and enthusiastic programmer.
-            I am 14 years old and I have been coding since 7. I like Python ,C++,Web Development,IOT and Machine Learning.
-            You can check out my github profile <a style="color:blue" href ="https://github.com/pythongiant"/>here</a>
-        </p><br/>
-        <center><p>My YouTube channel: <a href="https://www.youtube.com/channel/UCVpx2Kdvq3Ob1sN4neEkCsA"  style="color:blue">Srihari Unnikrishnan</a></P>
-        <p>My blog posts: <a href="http://theprogrammingjournal.blogspot.in/" style="color:blue">The programming journal </a></p>
-            
-        </center> 
-        </div>
-        <div id="Portfolio">
-            <div id="portfolio-bg"><span><div id="name_box"><h3 style="color:white">Portfolio</h3></div></span></div>
-            <center>
-                <h2>Works</h2>
+                    font-family: 'Roboto Slab', serif;
+                    padding: 0;
+                }
                 
-            </center>
+                #head-text{
+                    height: 100%;
+                    width:100%;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    
+                }
+                #head-text > h5{
+                    font-size: 150%;
+                }
+                #head-text > span>h1{
+                    font-family: 'Lobster', cursive;
+                    font-family:250%;
+                                }
+                .background {
+                    position:  absolute;
+                    display:  block;
+                    top: 0;
+                    left: 0;
+                    z-index: 0;
+                }
+                                  
+            #ctrl-panel div{
+                display: inline-block;
+            }                             
+            </style>
+    </head>
+    <body>
+        
+    <div id="start">
+        
+<canvas class="background" ></canvas>
+    <script src = "script.js"></script>                
+        <div id="head-text">
+            <span><h1>Srihari <br> Unnikrishnan</h1><span id="ityped"></span></span>
+            
+</div>  
+
+
+<script>
+        window.onload = function() {
+            Particles.init({
+              selector: '.background',
+              color:'white'
+            });
+          };
+          ityped.init('#ityped', {
+            strings:['Software Developer ', 'Full Stack Engineer ', 'Data Science Enthusiast ','14 year old'],
+            startDelay: 700,
+            typeSpeed: 100,
+            backSpeed: 100,
+            showCursor:false,
+            loop: true
+          });
+</script>
+<a href = "https://www.github.com/pythongiant"><img src="i am me..png" style="top:1;left:1;width:6%;z-index:1;position:absolute;"/></a>
+
+</body>
+
+<!--
             <div id="works">
             <center><p>I have worked In several Projects Like:</p> </center>
             <center>
@@ -65,14 +101,7 @@
             </ul>
             </center>
             </div>
-        </div>
-        <div id="Contacts">
-            <span><div id="name_box"><h3 style="color:white">Contact Me</h3></div></span> </div>
-        <center>
-            <h2>Where I work</h2>
-        </center>
-            <center>
-                <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key= AIzaSyC_2l0ftT5bGvQB7QQo5VGM97Ba6ABDGCA 
+                 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key= AIzaSyC_2l0ftT5bGvQB7QQo5VGM97Ba6ABDGCA 
     &q=Vishwakarma+Apartment,+Shaheed+Captain+Bhan+Marg,+Satyam+Apartment,+Vasundhara+Enclave,+New+Delhi,+Delhi+110096" allowfullscreen>
                     </iframe>
                     <p><strong>Location:</strong>Vasundhara Encalve,new Delhi</p>
@@ -80,10 +109,8 @@
                     <p>Drop By for a Cup of <span><strong>Coffee</strong></span></p>
           
 
-            </center>
-                    
+           
+        -->
         
-        <Div id="Social" style="width:100%;height:150px;"><span style="color:white;"><a href="https://www.twitter.com/Harrythecoder">Twitter</a></span></Div>
-</body>
-
 </html>
+
