@@ -5,6 +5,7 @@
     <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <meta name="description" content="I am Srihari Unnikrishnan">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
         <style>
                 body,html{
-                    background-color: #FF0010;
+                    background-color: #e84393;
                     margin:0;
                     color:aliceblue;
 
@@ -36,6 +37,7 @@
                     font-family:250%;
                                 }
                 .background {
+                    
                     position:  absolute;
                     display:  block;
                     top: 0;
@@ -46,16 +48,21 @@
             #ctrl-panel div{
                 display: inline-block;
             }                             
-            i{
-
-             
-    top:5;
-    left:5;
-    
-    z-index:1;
-    position:absolute;
+            #navbar{
+                top:0;
+                position: sticky;
+                z-index:1;
+                position:absolute;
+                
+                width:100%;
+            }
+            #navbar h2 {
+                padding:5px;
+                display: inline-block;
             }
             </style>
+            <link rel="stylesheet" href="node_modules/driver.js/dist/driver.min.css">
+<script src="node_modules/driver.js/dist/driver.min.js"></script>
     </head>
     <body>
         
@@ -84,55 +91,43 @@
             showCursor:false,
             loop: true
           });
+          $.fn.scrollView = function () {
+            return this.each(function () {
+              $('html, body').animate({
+                scrollTop: $(this).offset().top
+              }, 1000);
+            });
+          }
+          
 </script>
-<a href = "https://www.github.com/pythongiant"><i class="fa fa-github" style="font-size:48px;color:white;"></i></a>
+<div id ="navbar">
+<h2><a href = "https://www.github.com/pythongiant"><i id = "github"  class="fa fa-github" style="font-size:48px;color:white;"></i></a></h2>
+<h2  onclick="$('#port').scrollView();"><a></a>About Me</h2>
+<h2  onclick="$('#port').scrollView();"><a></a>Contact Me</h2>
+</div>
 <div id="port" style="margin: 0 auto;max-width:50em;font-size:120%;line-height:2;">
 <h3>About Me</h3>
 <p >I am experienced in Web Development and Application Development for Android and PC.</p>
-<p>Here are my works</p>
+<p>Here are my works (Check my github for more <a id="top" onclick="$('.fa').scrollView();">here</a>) </p>
 <p><a style="color:black;text-decoration:none;background-color:white;font-size:130%;"href="https://github.com/pythongiant/Sandra-Programming">Sandra</a>-An AI Assistant which does basic tasks.</p>
 
 <p><a style="color:black;text-decoration:none;background-color:white;font-size:130%;"href="https://github.com/pythongiant/Musick">Musick</a>-A very lightweight Music Player. It also downloads audiostreams of YouTube Videos</p>
 <p><a style="color:black;text-decoration:none;background-color:white;font-size:130%;"href="/">Mesmer</a>-An Open and Secure Social Network(Under Development)</p>
 
+<h3>Contact Me</h3>
+<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key= AIzaSyC_2l0ftT5bGvQB7QQo5VGM97Ba6ABDGCA 
+    &q=Vishwakarma+Apartment,+Shaheed+Captain+Bhan+Marg,+Satyam+Apartment,+Vasundhara+Enclave,+New+Delhi,+Delhi+110096" allowfullscreen>
+                    </iframe>
+                    <p><strong>Location:</strong>Vasundhara Encalve,new Delhi</p>
+                    <p><strong>Email Id:</strong> <a href="mailto:srihari.unnikrishnan@gmail.com" style="color:aliceblue">srihari.unnikrishnan@gmail.com</a></p>
+                    <strong>Phone Number:</strong>(+91)9654089346
+                    <p>Drop By for a Cup of <span><strong>Coffee</strong></span></p>
+          
+
 </div>
 
 </body>
 
-<!--
-            <div id="works">
-            <center><p>I have worked In several Projects Like:</p> </center>
-            <center>
-            <ul>
-                
-                <br/>
-                <li><strong><span>Raterr</span></strong>:This is a script which you can check out <a style="color:blue" href ="https://github.com/pythongiant/Raterr"/>here.</a>It uses NLP to give product reviews on your behalf.</li>
-                <br/>
-                <li><strong>ASAIP</strong>:This is a script which you can check out <a style="color:blue" href ="https://github.com/pythongiant/ASAIP"/>here.</a>It uses the Wolfram Alpha API to check out facts on certain nouns.</li>
-                <br/>
-                <li><strong><span>Programming-Hub</span></strong>:This is a Social networking website made using Django which you can check out <a style="color:blue" href ="https://github.com/pythongiant/Programming-Hub"/>here.</a></li>
-                <br/>
-                <li><strong><span>Sorting</span></strong>:This is a Sorting Algorithm which you can check out <a style="color:blue" href ="https://github.com/pythongiant/Sorting"/>here.</a>and the blog post about it <a style="color:blue" href="http://telegra.ph/The-Simplest-Python-Sorting-Algorithm-in-the-ENTIRE-WORLD-05-08">here.</a> </li>
-                <br/>
-                <li><strong><span>Stop-It</span></strong>:This is an arcade game made using an arduino and LEDS <a style="color:blue" href ="https://github.com/pythongiant/Stop-It"/>here.</a></li><br/>
-                <li><strong><span>Sandra</span></strong>: Full grown AI assistant with GUI. made using Python  <a style="color:blue" href ="https://github.com/pythongiant/Sandra-Programming"/>here.</a></li>
-                <br/>
-                <li><strong><span>NewView</span></strong>:This is a django website which you can check out <a style="color:blue" href ="https://github.com/pythongiant/NewView"/>here.</a>This enables users to write articles and recommends new articles.</li>
-                <br/>
-                <li>and many more..... on my github profile.</li>
-            </ul>
-            </center>
-            </div>
-                 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key= AIzaSyC_2l0ftT5bGvQB7QQo5VGM97Ba6ABDGCA 
-    &q=Vishwakarma+Apartment,+Shaheed+Captain+Bhan+Marg,+Satyam+Apartment,+Vasundhara+Enclave,+New+Delhi,+Delhi+110096" allowfullscreen>
-                    </iframe>
-                    <p><strong>Location:</strong>Vasundhara Encalve,new Delhi</p>
-                    <strong>Phone Number:</strong>(011)-42401468/(+91)9654089346
-                    <p>Drop By for a Cup of <span><strong>Coffee</strong></span></p>
-          
-
-           
-        -->
         
 </html>
 
