@@ -10,12 +10,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
         <style>
                 body,html{
-                    background-color: #e84393;
+                    background-color: black;
                     margin:0;
-                    color:aliceblue;
+                    color:white;
 
                     font-family: 'Roboto Slab', serif;
                     padding: 0;
@@ -27,23 +27,16 @@
                     justify-content: center;
                     display: flex;
                     align-items: center;
-                    
+                    overflow:hidden;
                 }
                 #head-text > h5{
                     font-size: 150%;
                 }
                 #head-text > span>h1{
-                    font-family: 'Lobster', cursive;
+                    font-family: 'Oswald', cursive;
                     font-family:250%;
                                 }
-                .background {
-                    
-                    position:  absolute;
-                    display:  block;
-                    top: 0;
-                    left: 0;
-                    z-index: 0;
-                }
+              
                                   
             #ctrl-panel div{
                 display: inline-block;
@@ -60,46 +53,44 @@
                 padding:5px;
                 display: inline-block;
             }
+            #ityped_par:hover{
+                
+                background-color:#181818;
+            }
             </style>
-            <link rel="stylesheet" href="node_modules/driver.js/dist/driver.min.css">
-<script src="node_modules/driver.js/dist/driver.min.js"></script>
     </head>
     <body>
         
+
+</body>
+
     <div id="start">
         
-<canvas class="background" ></canvas>
-    <script src = "script.js"></script>                
-        <div id="head-text">
-            <span><h1>Srihari <br> Unnikrishnan</h1>I am a <span  id="ityped"></span></span>
-            
-</div>  
 
+    <script src = "script.js"></script>           
 
+        <div id="head-text" style="">
+  <span ><h1>Srihari <br> </span><span id="ityped_par" style="color:green
+    ">Unnikrishnan</span></h1>
+        <span >I am a <span  id="ityped"></span>  </span>
+        <p>Looking for talent? You have come to the right place.</p>
 <script>
-        window.onload = function() {
-            Particles.init({
-              selector: '.background',
-              color:'white'
-            });
-          };
+
           ityped.init('#ityped', {
-            strings:['Software Developer ', 'Full Stack Engineer ', 'Data Science Enthusiast ','14 year old'],
+            strings:['Software Developer ', 'Full Stack Engineer ','Robotics Enthusiast', '15 year old'],
             startDelay: 700,
             typeSpeed: 100,
             backSpeed: 100,
             showCursor:false,
             loop: true
           });
-          $.fn.scrollView = function () {
-            return this.each(function () {
-              $('html, body').animate({
-                scrollTop: $(this).offset().top
-              }, 1000);
-            });
-          }
+          
           
 </script>
+                      
+</div>  
+<!--
+
 <div id ="navbar">
 <h2><a href = "https://www.github.com/pythongiant"><i id = "github"  class="fa fa-github" style="font-size:48px;color:white;"></i></a></h2>
 <h2  onclick="$('#port').scrollView();"><a></a>About Me</h2>
@@ -124,10 +115,6 @@
                     <p>Drop By for a Cup of <span><strong>Coffee</strong></span></p>
           
 
-</div>
-
-</body>
-
-        
+</div>-> 
 </html>
 
