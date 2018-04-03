@@ -9,7 +9,7 @@
 <meta name="description" content="I am Srihari Unnikrishnan">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> 
  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
         <style>
                 body,html{
@@ -17,7 +17,7 @@
                     margin:0;
                     color:white;
 
-                    font-family: 'Roboto Slab', serif;
+                    font-family: 'Roboto', serif;
                     padding: 0;
                 }
                 
@@ -37,32 +37,31 @@
                     font-family:250%;
                                 }
               
-                                  
-            #ctrl-panel div{
-                display: inline-block;
-            }                             
-            #navbar{
-                top:0;
-                position: sticky;
-                z-index:1;
-                position:absolute;
-                
-                width:100%;
-            }
-            #navbar h2 {
-                padding:5px;
-                display: inline-block;
-            }
+             
             #ityped_par:hover{
-                
+                text-decoration:underline;
                 background-color:#181818;
+            }
+            .button-inline{
+                display:inline-block;
+                background-color:   #DC143C;
+            }
+            .button-inline:hover{
+                display:inline-block;
+                background-color:#ff4136   ;
+            }
+            .button-inline{
+                padding:5px;
+                border-radius:5px;
+            }
+            .button-inline a {
+                color:white;
+                text-decoration:none;
             }
             </style>
     </head>
     <body>
         
-
-</body>
 
     <div id="start">
         
@@ -74,6 +73,9 @@
     ">Unnikrishnan</span></h1>
         <span >I am a <span  id="ityped"></span>  </span>
         <p>Looking for talent? You have come to the right place.</p>
+        <div class="button-inline" id ="git"><a href='https://www.github.com/pythongiant'>My Github</a></div>
+        <div class="button-inline" id ="Contact"><a href='mailto:srihari.unnikrishnan@gmail.com'>Contact Me</a></div>
+        
 <script>
 
           ityped.init('#ityped', {
@@ -88,33 +90,6 @@
           
 </script>
                       
-</div>  
-<!--
-
-<div id ="navbar">
-<h2><a href = "https://www.github.com/pythongiant"><i id = "github"  class="fa fa-github" style="font-size:48px;color:white;"></i></a></h2>
-<h2  onclick="$('#port').scrollView();"><a></a>About Me</h2>
-<h2  onclick="$('#port').scrollView();"><a></a>Contact Me</h2>
-</div>
-<div id="port" style="margin: 0 auto;max-width:50em;font-size:120%;line-height:2;">
-<h3>About Me</h3>
-<p >I am experienced in Web Development and Application Development for Android and PC.</p>
-<p>Here are my works (Check my github for more <a id="top" onclick="$('.fa').scrollView();">here</a>) </p>
-<p><a style="color:black;text-decoration:none;background-color:white;font-size:130%;"href="https://github.com/pythongiant/Sandra-Programming">Sandra</a>-An AI Assistant which does basic tasks.</p>
-
-<p><a style="color:black;text-decoration:none;background-color:white;font-size:130%;"href="https://github.com/pythongiant/Musick">Musick</a>-A very lightweight Music Player. It also downloads audiostreams of YouTube Videos</p>
-<p><a style="color:black;text-decoration:none;background-color:white;font-size:130%;"href="/">Mesmer</a>-An Open and Secure Social Network(Under Development)</p>
-
-<h3>Contact Me</h3>
-<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key= AIzaSyC_2l0ftT5bGvQB7QQo5VGM97Ba6ABDGCA 
-    &q=Vishwakarma+Apartment,+Shaheed+Captain+Bhan+Marg,+Satyam+Apartment,+Vasundhara+Enclave,+New+Delhi,+Delhi+110096" allowfullscreen>
-                    </iframe>
-                    <p><strong>Location:</strong>Vasundhara Encalve,new Delhi</p>
-                    <p><strong>Email Id:</strong> <a href="mailto:srihari.unnikrishnan@gmail.com" style="color:aliceblue">srihari.unnikrishnan@gmail.com</a></p>
-                    <strong>Phone Number:</strong>(+91)9654089346
-                    <p>Drop By for a Cup of <span><strong>Coffee</strong></span></p>
-          
-
-</div>-> 
+</div> 
+</body> 
 </html>
-
