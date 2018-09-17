@@ -1,0 +1,66 @@
+
+                body,html{
+                    background-color: black;
+                    margin:0;
+                    color:white;
+                    font-size:120%;
+                    font-family: 'Roboto', serif;
+                    padding: 0;
+                }
+                
+                #head-text{
+                    
+                    width:100%;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    overflow:hidden;
+                    
+                }
+                #head-text > span>h1{
+                    font-family: 'Oswald', cursive;
+                                }
+              
+             
+            #ityped_par:hover{
+                text-decoration:underline;
+                background-color:#181818;
+            }
+            .button-inline{
+                
+                transition: ease-in-out .2s;
+                
+                background-color:   #DC143C;
+            }
+            .button-inline:hover{
+                display:inline-block;
+            }
+            .button-inline{
+                padding:5px;
+                border-radius:5px;
+            }
+            .button-inline a {
+                color:white;
+                text-decoration:none;
+            }
+
+@media screen and (max-width: 500px) {
+    body,html{
+                    font-size:100%;
+                 
+                }
+    
+}
+#buttons{
+    display:flex;
+    
+    width: 100%;
+    justify-content: center;
+}
+#buttons > div{
+    margin:5px
+}
+#git:hover,#contact:hover,#twitter:hover{
+        transform: scale(1.5);
+        padding:5px;
+}
