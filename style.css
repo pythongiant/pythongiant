@@ -12,9 +12,7 @@
                     
                     width:100%;
                     height: 100%;
-                    background-image: url("green-mountains-wallpapers-61529-9977470.jpg");
-                    background-position: center;
-                    background-size: cover;
+                    background-color: black;
                     justify-content: center;
                     display: flex;
                     align-items: center;
