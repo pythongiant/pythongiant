@@ -90,3 +90,14 @@ html,body{
         margin:initial;
     }
   }
+  #block-sec{
+      display: flex;
+      text-align: center;
+  }
+  .blog-button{
+      padding:1em;
+      margin:5px;
+      color:#df0e62;
+      
+      text-shadow: 2px 2px #1e2f51;
+  }

@@ -4,13 +4,12 @@ $(document).ready(function(){
         anime({
             targets: '#music > i',
             rotate:{value:'90deg',delay:300},
-            
         }); 
     })
     var waypoint = new Waypoint({
         element: document.getElementById('buttons'),
         handler: function() {
-            console.log("yolo")
+            
             anime({
                 targets:"#python-graph",
                 width:"70%"
@@ -27,6 +26,6 @@ $(document).ready(function(){
               targets:"#linux-graph",
               width:"55%"
             })   
-        }
-      })
+          }
+        })
 });
