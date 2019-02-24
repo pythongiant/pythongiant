@@ -61,7 +61,26 @@ html,body{
       
       text-decoration: none;
   }
-  #blog-con{
+  #content{
       width: 50%;
-  margin: auto;
+      margin: auto;
+  }
+  .skill-sec{
+      padding:5px;
+      display: flex;
+  }
+  .graph{
+    padding:5px;
+    width:0px;
+    background-color: #df0e62;
+  }
+  .skill-sec p{
+    font-weight: 300;
+    width:100px;
+  }
+  .sec{
+      padding:2em;
+  }
+  #skill-sec{
+      margin:10px;
   }

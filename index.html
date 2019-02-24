@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
     <link href ="style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
     <script src="anime.min.js"></script>
     <script src="script.js"></script> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,8 +26,32 @@
     </Div>
 
   </div> 
-  <div id="blog">
-    <div id="blog-con"><h1>About me</h1><p>Hey I am Srihari Unnikrishnan. A 16 year old Full Stack Engineer from New Delhi, India. I work with Python,Kotlin, JavaScript and technologies like Django and React</p></div>
+  <div id="content">
+  <div id="blog" class="sec">
+    <div id="blog-con"><h1>About me</h1><hr width=40% height=2px;><p style="margin:10px;">Hey I am Srihari Unnikrishnan. A 16 year old Full Stack Engineer from New Delhi, India. I work with Python,Kotlin, JavaScript and technologies like Django and React. I like learning new things and meeting new people.</p></div>
+  </div>
+  <div id="skills" class="sec">
+    <h1>Skills</h1>
+    <hr width=40% height=2px;>
+    <div id="skill-sec">
+      <div class="skill-sec">
+        <div><p style="padding:5px;">Python</p></div>
+        <div id="python-graph" class="graph">90%</div>
+      </div>
+      <div class="skill-sec">
+          <div><p style="padding:5px;">Kotlin</p></div>
+          <div id="kotlin-graph" class="graph">80%</div>
+        </div>
+      <div class="skill-sec">
+            <div><p style="padding:5px;">Linux</p></div>
+            <div id="linux-graph" class="graph">75%</div>
+      </div>  
+      <div class="skill-sec">
+            <div><p style="padding:5px;">HTML/CSS/JS</p></div>
+            <div id="js-graph" class="graph">70%</div>
+      </div>  
+    </div>
   </div> 
+</div>
   </body>
 </html>
