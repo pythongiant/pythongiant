@@ -22,6 +22,7 @@ html,body{
     width:100%;
     height: 100%;
     font-size: 120%;
+    background-attachment: fixed;
     text-align: center;
     background-image: url("bg.gif")
 }
