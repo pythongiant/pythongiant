@@ -77,14 +77,33 @@ html,body{
       margin:10px;
   }
 
+  #music i {
+    font-size: 6em;
+  }
 @media screen and (max-width: 480px) {
     
     .title{font-size: 2em;}
+    #music i {
+        font-size: 1em;
+    }
     #parent{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+    #content{
+        width:100%;
+        margin:initial;
+    }
+  }
+
+@media screen and (max-height: 450px) {
+    
+    .title{font-size: 2em;}
+    
+  #music i {
+    font-size: 1em;
+  }
     #content{
         width:100%;
         margin:initial;
