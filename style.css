@@ -46,15 +46,6 @@ html,body{
     justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
-    
-    .title{font-size: 2em;}
-    #parent{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-  }
   a{
       color: inherit;
   }
@@ -84,4 +75,18 @@ html,body{
   }
   #skill-sec{
       margin:10px;
+  }
+
+@media screen and (max-width: 480px) {
+    
+    .title{font-size: 2em;}
+    #parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #content{
+        width:100%;
+        margin:initial;
+    }
   }
