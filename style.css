@@ -92,11 +92,12 @@ html,body{
   }
   #block-sec{
       display: flex;
+      flex-wrap: wrap;
       text-align: center;
   }
   .blog-button{
-      padding:1em;
-      margin:5px;
+      padding:0.5em;
+      margin:2px;
       color:#df0e62;
       
       text-shadow: 2px 2px #1e2f51;
