@@ -1,18 +1,19 @@
 
 *{
   margin: 0;
-    padding: 0;
-  }
-
+  padding: 0;
+}
 html,body{
     width:100%;
+    background-color: #050408;
+    color:#eee;
+    
     height: 100%;     
     font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
 }
 .title{
-    
     color:#df0e62;
-    
     padding-top:10%;
     font-size: 5em;
     
@@ -20,7 +21,6 @@ html,body{
 #parent{
     width:100%;
     height: 100%;
-    color:#eee;
     font-size: 120%;
     text-align: center;
     background-image: url("bg.gif")
@@ -29,17 +29,10 @@ html,body{
     display: none;
 }
 .button-inline{
-                
-    transition: ease-in-out .2s;
-    
-    background-color:#1e2f51;
-}
-.button-inline:hover{
-    display:inline-block;
-}
-.button-inline{
-    padding:5px;
+    padding:10px;
+    margin:2px;
     border-radius:5px;
+    background-color:#1e2f51;
 }
 .button-inline a {
     color:white;
@@ -48,22 +41,27 @@ html,body{
 
 #buttons{
     display:flex;
-    
     width: 100%;
     justify-content: center;
 }
-#buttons > div{
-    margin:10px;
-    width:15px;
-    transform: scale(1.2)
-}
 
 @media screen and (max-width: 480px) {
-    #buttons > div {transform: scale(1.0)}
+    
     .title{font-size: 2em;}
     #parent{
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+  }
+  a{
+      color: inherit;
+  }
+  a[href="#blog"]{
+      
+      text-decoration: none;
+  }
+  #blog-con{
+      width: 50%;
+  margin: auto;
   }
