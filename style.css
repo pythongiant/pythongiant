@@ -61,6 +61,15 @@ html,body{
       padding:5px;
       display: flex;
   }
+  ::selection{
+      background-color: #eee;
+      color: black;
+  }
+
+  ::-moz-selection{
+    background-color: #eee;
+    color: black;
+}
   .graph{
     padding:5px;
     width:0px;
