@@ -93,7 +93,7 @@ html,body{
     
     .title{font-size: 2em;}
     #music i {
-        font-size: 1em;
+        font-size: 2em;
     }
     #parent{
         display: flex;
@@ -105,13 +105,15 @@ html,body{
         margin:initial;
     }
   }
-
+a{
+    text-decoration: none;
+}
 @media screen and (max-height: 450px) {
     
     .title{font-size: 2em;}
     
   #music i {
-    font-size: 1em;
+    font-size: 3em;
   }
     #content{
         width:100%;
