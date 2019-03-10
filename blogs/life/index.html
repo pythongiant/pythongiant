@@ -5,7 +5,9 @@
     <link rel="icon" href="/i am me..png">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script>
+
+    </script>
     <link href ="style.css" rel="stylesheet">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -37,31 +39,7 @@
     <meta property="og:image:height" content="630">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Srihari Unnikrishnan - Programming Blog</title>
-
-<script>
-        
-        $(document).ready(function(){
-            var no = document.getElementById("no")
-            var parser = new DOMParser();
-            $.ajax({
-                context: this,
-                dataType : "html",
-                url : document.baseURI.replace("index.html","blog.html"),
-                success : function(results) {
-                    
-                    no.innerHTML = (parser.parseFromString(results, 'text/html').all.item(5).firstChild.nodeValue)
-                    for (let index = 0; index < parser.parseFromString(results, 'text/html').all.length; index++) {
-                        const element = parser.parseFromString(results, 'text/html').all.item(index);
-                        if(!(element.getElementsByTagName("p").length==0)){
-                            no.innerHTML = (element.getElementsByTagName("p").snippet.firstChild.nodeValue); 
-                        }
-                    }
-                }
-            });
-      
-        });     
-    
-    </script>
+    <script src="getBlog.js"></script>
 </head>
 <body>
 
@@ -70,9 +48,10 @@
        <div id="about"><h2>Srihari Unnikrishnan</h2><hr width="30%;" style="margin-bottom:10px;"><P >Hey, I am Srihari Unnikrishnan. I am a 16 year old full stack developer. I program in python, kotlin and java</P></div>
        <div id="blog-rows">
            <h2>Blogs</h2><hr width="30%;" style="margin-bottom:10px;">
-           <h4>State of hip-hop : 2019 </h4>
-           <p id="no"></p>
+           <div id="blogs">
 
+
+            </div>
         </div>
    </div>
 
