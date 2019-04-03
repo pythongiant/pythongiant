@@ -57,7 +57,7 @@ html,body{
 #row-parent{
     display: flex;
     justify-content: space-between;    
-    
+    flex-wrap: wrap
 }
 #about{
     margin:3em;
@@ -71,4 +71,13 @@ html,body{
 a{
     text-decoration: none;
     color:inherit;
+}
+@media screen and (max-width: 480px) {
+    #header{
+        height:100%;
+        font-size:1.8em;
+    }
+    #about, #blog-rows{
+        width:100%;
+    }
 }
