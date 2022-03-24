@@ -1,0 +1,24 @@
+.skills{
+    height:80vh;
+    font-size:1.8em;
+    margin:10% 0 0 10%;
+    p{
+        margin-top: 40px;
+        line-height: 2em;
+        width:50%;
+    }
+}
+
+.icons {
+    display: flex;
+    margin-top:50px;
+    div {
+      font-size: 1.4em;
+      padding-right: 10px;
+      
+    }
+    i{
+      margin-right:30px;
+      color:#717070;
+    }
+  }

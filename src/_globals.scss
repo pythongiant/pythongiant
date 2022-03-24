@@ -1,0 +1,21 @@
+$background_color: #F9F9F9 !default;
+
+$primary_color:#FC28FB !default;
+$secondary_color:#ff99ff;
+$text_color:#000 !default;
+$third_color:#AF00AE;
+$navbar_unselected: #C4C4C4;
+$dark_theme:false;
+$slider_background:#eeeeee;
+
+@if $dark_theme {
+  $background_color:#0C0C0C;
+  $text_color:#fff;
+
+}
+:export{
+  sliderButtonColor:$secondary_color;
+  sliderBackgroundColorLight:$slider_background;
+  sliderBackgroundColorDark:$primary_color;
+}
+  
