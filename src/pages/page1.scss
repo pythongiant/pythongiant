@@ -1,0 +1,42 @@
+@use "../globals" as variables;
+
+.icons {
+  display: flex;
+  margin-top:20px;
+  div {
+    padding-right: 10px;
+
+  }
+}
+.about-me {
+  margin: 10% 0 0 10%;
+  font-size: 1.8em;
+  background-image: url("../../public/Background.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:80vh;
+  width: 80vw;
+}
+.tag {
+  font-weight: 200;
+  font-size: 0.7em;
+}
+.tags {
+  padding: 10px 0 40px 0;
+}
+.highlight {
+  color: variables.$primary_color;
+}
+a {
+  text-decoration: none;
+  color: variables.$text_color;
+}
+.about{
+  width:50%;
+  padding:20px 0 20px 0;
+}
+.icon-svg{
+    width:30px !important;
+    height: 30px !important;
+}

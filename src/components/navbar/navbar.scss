@@ -1,0 +1,31 @@
+@use "../../globals" as variables;
+
+.circle {
+  background-color: variables.$navbar_unselected;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.nav {
+  list-style-type: none;
+  display: flex;
+  position: fixed;
+  right:0;
+  top:20%;
+  margin:50px;
+  flex-direction: column;
+  li {
+    padding:20px;
+    div {
+      display: flex;
+      align-items: center;
+      
+      flex-direction: row;
+    }
+  }
+}
+.navT{
+  width: 70px;
+  padding-right: 10px; 
+  text-align: left;
+}

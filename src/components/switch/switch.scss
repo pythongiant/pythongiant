@@ -1,0 +1,28 @@
+@use "../../globals" as variables;
+
+%icon{
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 80%;
+  justify-content: center;
+  margin-top: 2px;
+  text-align: center;
+  color:variables.$secondary_color;
+
+}
+.IconButtonDark {
+  @extend %icon;
+  right:0;
+  
+}
+.IconButtonLight {
+  @extend %icon;
+  left: 0;
+}
+.switch{
+  position: fixed !important;
+  top: 0px !important;
+  margin: 50px;
+  right: 0px !important;
+}
