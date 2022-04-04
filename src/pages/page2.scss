@@ -1,3 +1,5 @@
+@use ".././_globals.scss" as variables;
+
 .skills{
     height:80vh;
     font-size:1.8em;
@@ -19,6 +21,6 @@
     }
     i{
       margin-right:30px;
-      color:#717070;
+      color:variables.$icon_color;
     }
   }

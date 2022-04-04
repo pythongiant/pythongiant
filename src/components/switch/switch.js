@@ -3,7 +3,6 @@ import Switch from "react-switch";
 import {DarkMode,LightMode} from "@mui/icons-material/";
 import "./switch.scss"
 import globals from "../../_globals.scss";
-
 export default class DarkModeSwitch extends Component{
     constructor(){
         super();
@@ -15,6 +14,7 @@ export default class DarkModeSwitch extends Component{
 
     }
     handleChange(checked){
+        
         this.setState({checked})
     }
     componentDidMount(){
@@ -30,6 +30,7 @@ export default class DarkModeSwitch extends Component{
                 onHandleColor={this.sliderButtonColor}
                 offHandleColor={this.sliderButtonColor}
                 offColor={this.sliderBackgroundColorLight}
+                onClick={this.func}
                 onChange={this.handleChange}
                 className="switch"
                 checked={this.state.checked}
