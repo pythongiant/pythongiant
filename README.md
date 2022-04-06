@@ -1,7 +1,7 @@
 
 <h1>Srihari Unnikrishnan </h1>
 
-⭐ He/Him Full Stack Engineer. <br/>
+⭐ Full Stack Engineer. <br/>
 📍  Chennai | New Delhi | Bangalore <br/>
 📚 Freshman at VIT Chennai BTech in CSE w/ Spec. in AI and ML. <br/>
 💻 Open for Work.
