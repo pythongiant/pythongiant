@@ -1,6 +1,15 @@
 
 <h1>Srihari Unnikrishnan </h1>
 
+⭐ He/Him Full Stack Engineer. <br/>
+📍  Chennai | New Delhi | Bangalore <br/>
+📚 Freshman at VIT Chennai BTech in CSE w/ Spec. in AI and ML. <br/>
+💻 Open for Work.
+
+[![LinkedIN](https://img.shields.io/badge/-Follow&nbsp;Me&nbsp;On&nbsp;LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=default)](https://www.linkedin.com/in/srihari-unnikrishnan-b567a7145/)
+[![Email](https://img.shields.io/badge/-Email&nbsp;Me&nbsp;-000000?style=flat&logo=Gmail&logoColor=default)](mailto:srihari.unnikrishnan@gmail.com)
+<hr/>
+
 **Languages I have used**
 
 ![C++](https://img.shields.io/badge/-C++-000000?style=flat&logo=C%2B%2B&logoColor=00599C)
