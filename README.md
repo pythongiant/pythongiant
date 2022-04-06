@@ -19,11 +19,13 @@
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=python)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript&logoColor=007ACC)
 ![SQL](https://img.shields.io/badge/-SQL-000000?style=flat&logo=MySQL)
+![Kotlin](https://img.shields.io/badge/-Kotlin-000000?style=flat&logo=Kotlin)
 
 **Some of the technologies I have worked with**
 
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=FFFFFF)
+![Django](https://img.shields.io/badge/-Django-000000?style=flat&logo=Django&logoColor=default)
 ![jQuery](https://img.shields.io/badge/-jQuery-000000?style=flat&logo=jQuery&logoColor=0769AD)
 ![Linux](https://img.shields.io/badge/-Linux-000000?style=flat&logo=linux&logoColor=FCC624)
 ![Node.js](https://img.shields.io/badge/-Node.js-000000?style=flat&logo=node.js&logoColor=339933)
