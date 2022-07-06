@@ -3,9 +3,13 @@ import Project from "../components/projects/projects";
 import "./page3.scss";
 import { GitHub, AlternateEmail, LinkedIn } from "@mui/icons-material/";
 
-export default class Page1 extends Component {
+export default class Page extends Component {
+
   constructor() {
+    
     super();
+    this.myRef = React.createRef()
+ 
     this.socials = [
       {
         key: 0,
@@ -20,13 +24,15 @@ export default class Page1 extends Component {
       {
         key: 2,
         icon: <LinkedIn className="icon-svg" />,
-        link: "https://www.linkedin.com/in/srihari-unnikrishnan-b567a7145/",
+        link: "https://www.linkedin.com/in/srihari-unnikrishnan",
       },
     ];
   }
+  
+  executeScroll = () => this.myRef.scrollIntoView()
   render() {
     return (
-      <div className="portfolio">
+      <div className="portfolio"  ref={ (ref) => this.myRef=ref }>
         <h2>Projects</h2>
         <div className="tags">
           <p className="tag">My Past Work</p>

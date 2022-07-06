@@ -2,9 +2,11 @@ import React, { Component } from "react";
 import "./page1.scss";
 import { GitHub, AlternateEmail, LinkedIn } from "@mui/icons-material/";
 
-export default class Page1 extends Component {
+export default class Page extends Component {
+
   constructor() {
     super();
+    this.myRef = React.createRef()  
     this.socials = [
       {
         key:0,
@@ -21,13 +23,16 @@ export default class Page1 extends Component {
       },
     ];
   }
+  executeScroll = () => this.myRef.scrollIntoView()
+  
   render() {
+
     return (
-      <div className="about-me">
+      <div className="about-me"  ref={ (ref) => this.myRef=ref }>
         <h1>Srihari Unnikrishnan</h1>
-        <div className="tags">
+        <div className="tags" >
           <p className="tag">Full Stack Engineer and App Developer</p>
-          <p className="tag">New Delhi | Chennai</p>
+          <p className="tag">Chennai | New Delhi</p>
         </div>
         <p className="about">
           I build beautiful and simple web applications in Python & JavaScript          because{" "} 

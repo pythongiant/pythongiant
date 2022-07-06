@@ -4,9 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
-export default class Page1 extends Component {
+export default class Page extends Component {
+
   constructor() {
     super();
+    this.myRef = React.createRef()
+
     this.socials = [
       {
         key: 0,
@@ -29,9 +32,10 @@ export default class Page1 extends Component {
       { key: 6, icon: <i className="fa-brands fa-sass"></i>, link: "" },
     ];
   }
+  executeScroll = () => this.myRef.scrollIntoView()
   render() {
     return (
-      <div className="skills">
+      <div className="skills"  ref={ (ref) => this.myRef=ref }>
         <h2>Skills</h2>
         <p>
           I mainly work with JavaScript and Python Web and Native Frameworks, my
