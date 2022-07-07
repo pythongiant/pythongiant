@@ -19,17 +19,17 @@ export default class Page extends Component {
       {
         key: 1,
         icon:<i className="fa-brands fa-node-js"></i>,
-        link: "mailto:srihari.unnikrishnan@gmail.com",
+        link: "https://nodejs.org/en/",
       },
       {
         key: 2,
         icon: <i className="fa-brands fa-react"></i>,
-        link: "https://www.linkedin.com/in/srihari-unnikrishnan-b567a7145/",
+        link: "https://reactjs.org/",
       },
 
-      { key: 4, icon: <i className="fa-brands fa-python"></i>, link: "" },
+      { key: 4, icon: <i className="fa-brands fa-python"></i>, link: "https://www.python.org/" },
       { key: 5, icon: <i className="fa-brands fa-html5"></i>, link: "" },
-      { key: 6, icon: <i className="fa-brands fa-sass"></i>, link: "" },
+      { key: 6, icon: <i className="fa-brands fa-sass"></i>, link: "https://sass-lang.com/" },
     ];
   }
   executeScroll = () => this.myRef.scrollIntoView()
