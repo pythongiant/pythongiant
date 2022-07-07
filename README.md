@@ -1,5 +1,18 @@
 
+<<<<<<< HEAD
 <h1> Hey There! </h1>
+=======
+<h1>Srihari Unnikrishnan </h1>
+
+⭐Full Stack Engineer. <br/>
+🌇Chennai | New Delhi <br/>
+📚Freshman at VIT Chennai doing BTech - CSE w/ Spec. in AI and ML <br/>
+💻Open for Work
+
+[![LinkedIN](https://img.shields.io/badge/-Follow&nbsp;Me&nbsp;On&nbsp;LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=default)](https://www.linkedin.com/in/srihari-unnikrishnan-b567a7145/)
+[![Email](https://img.shields.io/badge/-Email&nbsp;Me&nbsp;-000000?style=flat&logo=Gmail&logoColor=default)](mailto:srihari.unnikrishnan@gmail.com)
+<hr/>
+>>>>>>> a6832cea78bbf91d9698cf199b307a0f490cdcda
 
 **Languages I have used**
 
@@ -10,11 +23,19 @@
 ![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=python)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript&logoColor=007ACC)
 ![SQL](https://img.shields.io/badge/-SQL-000000?style=flat&logo=MySQL)
+<<<<<<< HEAD
+=======
+![Kotlin](https://img.shields.io/badge/-Kotlin-000000?style=flat&logo=Kotlin)
+>>>>>>> a6832cea78bbf91d9698cf199b307a0f490cdcda
 
 **Some of the technologies I have worked with**
 
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=FFFFFF)
+<<<<<<< HEAD
+=======
+![Django](https://img.shields.io/badge/-Django-000000?style=flat&logo=Django&logoColor=default)
+>>>>>>> a6832cea78bbf91d9698cf199b307a0f490cdcda
 ![jQuery](https://img.shields.io/badge/-jQuery-000000?style=flat&logo=jQuery&logoColor=0769AD)
 ![Linux](https://img.shields.io/badge/-Linux-000000?style=flat&logo=linux&logoColor=FCC624)
 ![Node.js](https://img.shields.io/badge/-Node.js-000000?style=flat&logo=node.js&logoColor=339933)
