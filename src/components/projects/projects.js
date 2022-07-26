@@ -10,7 +10,7 @@ export default function Project(props) {
       <div className="content">
         <p className="title">{props.name}</p>
         <p className="details">{props.detail}</p>
-         <div className="icons">
+         <div className="icons_proj">
           {props.icons.map((item) => {
             return (
               <div>

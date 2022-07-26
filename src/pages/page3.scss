@@ -1,3 +1,5 @@
+@use "../_globals.scss" as variables;
+
 .project-tag{
     font-weight: 200;
     font-size: 0.5em;
@@ -23,4 +25,8 @@
     margin-bottom:5px;
     width:20vw;
     margin-right: 5vw;
+}
+a{
+    text-decoration: underline;
+    color:variables.$primary_color;
 }

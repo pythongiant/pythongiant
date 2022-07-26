@@ -1,3 +1,5 @@
+@use "../../_globals.scss" as variables;
+
 .title{
     font-size: 0.7em;
     font-weight: 700;
@@ -19,6 +21,24 @@
     }
     margin-top:10px;
 }
+
+.icons_proj {
+    display: flex;
+    
+    margin-top:50px;
+    align-items: center;
+    div {
+      font-size: 1em;
+      padding-right: 0;
+      
+    margin-right: 10px;
+    }
+    i{
+      margin-right:0;
+      color:variables.$icon_color;
+    }
+  }
+
 .content{
     line-height: 30px;
     margin-top:30px;

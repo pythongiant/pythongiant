@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Project from "../components/projects/projects";
 import "./page3.scss";
-import { GitHub, AlternateEmail, LinkedIn } from "@mui/icons-material/";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default class Page extends Component {
 
@@ -10,23 +11,39 @@ export default class Page extends Component {
     super();
     this.myRef = React.createRef()
  
-    this.socials = [
+    this.f1_icons = [
       {
         key: 0,
-        icon: <GitHub className="icon-svg" />,
-        link: "https://github.com/pythongiant",
+        icon: <div><i className="fa-brands fa-github "></i></div>,
+        link: "https://github.com/pythongiant/Formula-One-App",
       },
       {
         key: 1,
-        icon: <AlternateEmail className="icon-svg" />,
-        link: "mailto:srihari.unnikrishnan@gmail.com",
+        icon: <div><i className="fa-brands fa-figma "></i></div>,
+        link: "",
       },
       {
         key: 2,
-        icon: <LinkedIn className="icon-svg" />,
-        link: "https://www.linkedin.com/in/srihari-unnikrishnan",
+        icon:<div><i className="fa-brands fa-react "></i></div>,
+        link: "",
       },
     ];
+    this.moon_icons=[
+      {
+        key:0,
+        icon: <div><i className="fa-brands fa-node-js "></i></div>,
+        link: "",
+      },{
+        
+        key:1,
+        icon: <div><i className="fa-brands fa-react "></i></div>,
+        link: "",
+      },{
+        key:2,
+        icon: <div><i className="fa-brands fa-sass "></i></div>,
+        link: "",
+      }
+    ]
   }
   
   executeScroll = () => this.myRef.scrollIntoView()
@@ -39,27 +56,21 @@ export default class Page extends Component {
 
           <p className="project-tag">
             PS: This Website was made using Sass and React. check out the code{" "}
-            <a href="">here</a>{" "}
+            <a href="https://github.com/pythongiant/pythongiant">here</a>{" "}
           </p>
           <div className="parents">
           <div className="projects">
             <Project
-              name="Formula One App"
-              detail="lolz xd made using React Nativelolz xd made using React Nativelolz xd made using React Nativelolz xd made using React Native"
+              name="Formula One"
+              detail="Formula One is made to track the stats and details of all the drivers team and races. Built using pure JavaScript and React Native"
               ss={require("../app.png")}
-              icons={this.socials}
+              icons={this.f1_icons}
             />
             <Project
-              name="Formula One App"
-              detail="lolz xd made using React Native"
+              name="Moon"
+              detail="Moon is a depop clone made using the MERN(MongoDB, Express,React Native and Node.js) stack. Used to fasciliate thrifting of clothes and accessories."
               ss={require("../app.png")}
-              icons={this.socials}
-            />
-            <Project
-              name="Formula One App"
-              detail="lolz xd made using React Native"
-              ss={require("../app.png")}
-              icons={this.socials}
+              icons={this.moon_icons}
             />
           </div>
           </div>
