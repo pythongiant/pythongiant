@@ -3,7 +3,7 @@
 
 ⭐Full Stack Engineer. <br/>
 🌇Chennai | New Delhi <br/>
-📚Freshman at VIT Chennai doing BTech - CSE w/ Spec. in AI and ML <br/>
+📚Sophomore at VIT Chennai doing BTech - CSE w/ Spec. in AI and ML <br/>
 💻Open for Work
 
 [![LinkedIN](https://img.shields.io/badge/-Follow&nbsp;Me&nbsp;On&nbsp;LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=default)](https://www.linkedin.com/in/srihari-unnikrishnan-b567a7145/)
