@@ -30,10 +30,6 @@ export default class Page extends Component {
     ];
     this.moon_icons=[
       {
-        key:0,
-        icon: <div><i className="fa-brands fa-node-js "></i></div>,
-        link: "",
-      },{
         
         key:1,
         icon: <div><i className="fa-brands fa-react "></i></div>,
@@ -42,7 +38,12 @@ export default class Page extends Component {
         key:2,
         icon: <div><i className="fa-brands fa-sass "></i></div>,
         link: "",
-      }
+      },
+      {
+        key: 3,
+        icon: <div><i className="fa-brands fa-figma "></i></div>,
+        link: "",
+      },
     ]
   }
   
@@ -63,13 +64,13 @@ export default class Page extends Component {
             <Project
               name="Formula One"
               detail="Formula One is made to track the stats and details of all the drivers team and races. Built using pure JavaScript and React Native"
-              ss={require("../app.png")}
+              ss={require("../f1_app.png")}
               icons={this.f1_icons}
             />
             <Project
-              name="Moon"
-              detail="Moon is a depop clone made using the MERN(MongoDB, Express,React Native and Node.js) stack. Used to fasciliate thrifting of clothes and accessories."
-              ss={require("../app.png")}
+              name="Rutree"
+              detail="Rutree is a Financial Money Tracker that tracks and details transactions using Bank SMS(s)."
+              ss={require("../Rutree_app.png")}
               icons={this.moon_icons}
             />
           </div>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./page1.scss";
 import { GitHub, AlternateEmail, LinkedIn } from "@mui/icons-material/";
-
+import Resume from "../Resume.pdf"
 export default class Page extends Component {
 
   constructor() {
@@ -38,6 +38,9 @@ export default class Page extends Component {
           I build beautiful and simple web applications in Python & JavaScript          because{" "} 
           <span className="highlight">i love it !</span>
         </p>
+        <div className="download">
+          <a href={Resume} target="_blank">Download My Resume !</a>
+        </div>
         <div className="icons">
           {this.socials.map((item) => {
             return (

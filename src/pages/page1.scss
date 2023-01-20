@@ -1,4 +1,4 @@
-@use "../globals" as variables;
+@use ".././_globals.scss" as variables;
 
 .icons {
   display: flex;
@@ -39,4 +39,15 @@ a {
 .icon-svg{
     width:30px !important;
     height: 30px !important;
+}
+.download{
+  width:160px;
+  font-size:0.5em;
+  margin-top:5px;
+  padding:15px;
+  border:3px solid  variables.$primary_color;
+  border-radius: 30px;
+}
+a{
+  text-decoration: none !important;
 }
