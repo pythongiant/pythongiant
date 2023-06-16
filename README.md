@@ -48,4 +48,3 @@
 [![Big Mac Index](https://img.shields.io/badge/🍔&nbsp;&nbsp;Big&nbsp;Mac&nbsp;Index-000000?style=flat)](https://github.com/fossasia/susper.com)
 [![Trenta Calculator](https://img.shields.io/badge/-📧&nbsp;&nbsp;Trenta&nbsp;Calculator-000000?style=flat)](https://github.com/pythongiant/Trenta-Calculator)
 
-<img align="" height='130px' src="https://github-readme-stats.vercel.app/api?username=pythongiant&hide_title=true&show_icons=true&include_all_commits=true&line_height=21&theme=graywhite" /><img align="" height='130px' src="https://github-readme-stats.vercel.app/api/top-langs/?username=pythongiant&hide_title=true&layout=compact&theme=graywhite" />
