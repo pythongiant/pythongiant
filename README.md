@@ -1,7 +1,7 @@
 
 <h1>Srihari Unnikrishnan </h1>
 
-⭐Full Stack Engineer. <br/>
+⭐AI and ML Engineer <br/>
 🌇Chennai | New Delhi <br/>
 📚Senior at VIT Chennai doing BTech - CSE w/ Spec. in AI and ML <br/>
 💻Currently Interning at the Sony Research Institute as a Data Scientist
