@@ -3,8 +3,6 @@
 
 ⭐AI and ML Engineer <br/>
 🌇Chennai | New Delhi <br/>
-📚Senior at VIT Chennai doing BTech - CSE w/ Spec. in AI and ML <br/>
-💻Currently Interning at the Sony Research Institute as a Data Scientist
 
 [![LinkedIN](https://img.shields.io/badge/-Follow&nbsp;Me&nbsp;On&nbsp;LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=default)](https://www.linkedin.com/in/srihari-unnikrishnan-b567a7145/)
 [![Email](https://img.shields.io/badge/-Email&nbsp;Me&nbsp;-000000?style=flat&logo=Gmail&logoColor=default)](mailto:srihari.unnikrishnan@gmail.com)
