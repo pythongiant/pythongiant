@@ -22,6 +22,7 @@
 **Some of the technologies I have worked with**
 
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=F05032)
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=python&logoColor=FFFFFF)
 ![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=FFFFFF)
 ![Django](https://img.shields.io/badge/-Django-000000?style=flat&logo=Django&logoColor=default)
 ![jQuery](https://img.shields.io/badge/-jQuery-000000?style=flat&logo=jQuery&logoColor=0769AD)
