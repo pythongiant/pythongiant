@@ -2,6 +2,8 @@
 <h1>Srihari Unnikrishnan </h1>
 
 ⭐AI and ML Engineer <br/>
+⭐Quant Researcher / Trader and Developer<br/>
+
 🌇Chennai | New Delhi <br/>
 
 [![LinkedIN](https://img.shields.io/badge/-Follow&nbsp;Me&nbsp;On&nbsp;LinkedIn-000000?style=flat&logo=LinkedIn&logoColor=default)](https://www.linkedin.com/in/srihari-unnikrishnan-b567a7145/)
@@ -32,18 +34,4 @@
 ![Mongo DB](https://img.shields.io/badge/-MongoDB-000000?style=flat&logo=mongoDB&logoColor=default)
 ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=React&logoColor=61DAFB)
 ![Figma](https://img.shields.io/badge/-Figma-000000?style=flat&logo=Figma&logoColor=default)
-
-**Web/Full Stack projects**
-
-[![My Website](https://img.shields.io/badge/-🧬&nbsp;&nbsp;My&nbsp;Website-000000?style=flat)](https://pythongiant.github.io)
-
-**Android projects**
-
-[![Formula One](https://img.shields.io/badge/-🏎️&nbsp;Formula&nbsp;One-000000?style=flat)](https://github.com/pythongiant/Formula-One-App)
-
-**Other Projects / Contributions**
-
-[![Susper](https://img.shields.io/badge/-🧼&nbsp;&nbsp;Supser.AI-000000?style=flat)](https://github.com/fossasia/susper.com)
-[![Big Mac Index](https://img.shields.io/badge/🍔&nbsp;&nbsp;Big&nbsp;Mac&nbsp;Index-000000?style=flat)](https://github.com/fossasia/susper.com)
-[![Trenta Calculator](https://img.shields.io/badge/-📧&nbsp;&nbsp;Trenta&nbsp;Calculator-000000?style=flat)](https://github.com/pythongiant/Trenta-Calculator)
 
