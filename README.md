@@ -1,7 +1,7 @@
 
 <h1>Srihari Unnikrishnan </h1>
 
-⭐AI and ML Engineer <br/>
+⭐AI and ML Engineer @ Microsoft <br/>
 ⭐Quant Researcher / Trader and Developer<br/>
 
 🌇Chennai | New Delhi <br/>
