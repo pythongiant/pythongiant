@@ -3,6 +3,7 @@
 
 ⭐AI and ML Engineer @ Microsoft <br/>
 ⭐Quant Researcher / Trader and Developer<br/>
+[Connect w me on Linkedin](https://www.linkedin.com/in/srihari-unnikrishnan/)
 
 🌇Chennai | New Delhi <br/>
 
