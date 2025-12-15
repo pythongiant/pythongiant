@@ -1,7 +1,7 @@
 
 <h1>Srihari Unnikrishnan </h1>
 
-⭐AI and ML Engineer @ Microsoft <br/>
+⭐ AI Research Intern @ Microsoft <br/>
 ⭐Quant Researcher / Trader and Developer<br/>
 [Connect w me on Linkedin](https://www.linkedin.com/in/srihari-unnikrishnan/)
 
