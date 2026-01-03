@@ -1,8 +1,7 @@
 <h1 align="center">Srihari Unnikrishnan</h1>
 
 <p align="center">
-AI Research Intern @ <b>Microsoft Research</b> · Quant Researcher · ML Engineer <br/>
-LLMs · RAG · Market Microstructure · Statistical & Algorithmic Trading
+AI Research Intern @ <b>Microsoft Research</b> · Machine Learning and Artificial Intelligence
 </p>
 
 <p align="center">
