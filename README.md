@@ -1,7 +1,8 @@
 <h1 align="center">Srihari Unnikrishnan</h1>
 
 <p align="center">
-AI Research Intern @ <b>Microsoft Research</b> · Machine Learning and Artificial Intelligence
+  
+  Machine Learning and Artificial Intelligence Researcher. Ex-Microsoft,Pwc,Sony Research
 </p>
 
 <p align="center">
