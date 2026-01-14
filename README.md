@@ -1,5 +1,5 @@
 <h1 align="center">Srihari Unnikrishnan</h1>
-<p align="center">ML & AI Researcher and Engineer <br/> <i>Ex-Microsoft, Pricewaterhouse Cooper, Sony Research</i> </p>
+<p align="center">ML & AI Researcher and Engineer <br/> <i>Ex-Microsoft, PricewaterhouseCoopers (Pwc) , Sony Research</i> </p>
 
 
 <p align="center">
